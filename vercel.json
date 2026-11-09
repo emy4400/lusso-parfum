@@ -1,4 +1,6 @@
 {
+  "buildCommand": "npm run vercel-build",
+  "framework": "vite",
   "rewrites": [
     { "source": "/catalogo", "destination": "/index.html" },
     { "source": "/gracias", "destination": "/index.html" }
